@@ -84,8 +84,9 @@ include "checkEntry.php";
   </div>
     <div class="form-symptoms mt-0">
     <p class="h5 mb-3 font-weight-normal text-primary">Please check all of the symptoms noted below that you are presently experiencing and not caused by a known and diagnosed preexisting condition or chronic illness:</p>
-
-    <form action="symptomsinsert.php" method="POST">
+    <!-- symptomsinsert.php removed for Demo  -->
+    <!-- <form action="symptomsinsert.php" method="POST"> -->
+    <form action="thank-you.html" method="POST">
         <input type="hidden" name="sEmail" id="sEmail" value="<? echo $_SESSION['uname']; ?>" >
         <input type="hidden" name="idN" id="idN" value="<? echo $_SESSION['IDNumber']; ?>" >
         <input type="hidden" name="idS" id="idS" value="<? echo $_SESSION['StudentID']; ?>" >
